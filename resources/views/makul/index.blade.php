@@ -28,7 +28,7 @@
                                     <td>{{ $mk->sks}}</td>
                                     <td>
                                         <a href="{{ route('makul.edit', $mk->id) }}" class="btn btn-sm btn-warning">EDIT</a>
-                                        <a href="#" class="btn btn-sm btn-danger">HAPUS</a>
+                                        <a href="{{ route('hapus.edit', $mk->id) }}" class="btn btn-sm btn-danger">HAPUS</a>
                                     </td>
                                 </tr>
                             @endforeach
